@@ -1,4 +1,4 @@
-package smf
+package svcgen
 
 import (
 	"strings"

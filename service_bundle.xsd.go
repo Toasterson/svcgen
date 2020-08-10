@@ -32,7 +32,7 @@
 
 // NOTE: the golang package has no support for that yet...
 
-package smf
+package svcgen
 
 import (
 	"encoding/xml"
