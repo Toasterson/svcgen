@@ -1,6 +1,8 @@
 package svcgen
 
 import (
+	"encoding/xml"
+	"os"
 	"strings"
 )
 
@@ -9,6 +11,26 @@ const OCIEntryPointSVCName = "application/oci-entrypoint"
 const Header = `<?xml version="1.0"?>
 <!DOCTYPE service_bundle SYSTEM "/usr/share/lib/xml/dtd/service_bundle.dtd.1">
 `
+
+func WriteManifest(filePath string, bundle ServiceBundle) error {
+	f, err := os.Create(filePath)
+	if err != nil {
+		panic(err)
+	}
+	defer f.Close()
+
+	if _, err := f.WriteString(Header); err != nil {
+		return err
+	}
+
+	enc := xml.NewEncoder(f)
+	enc.Indent("", "\t")
+	if err = enc.Encode(bundle); err != nil {
+		return err
+	}
+
+	return nil
+}
 
 func NewManifest(name string) ServiceBundle {
 	return ServiceBundle{
