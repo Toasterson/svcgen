@@ -1,3 +1,3 @@
-module gtihub.com/toasterson/svcgen
+module github.com/toasterson/svcgen
 
 go 1.14
