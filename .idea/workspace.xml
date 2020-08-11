@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a52d01c7-9f27-41e7-8d5d-75c96e2c55b6" name="Default Changelist" comment="Add Writemanife function">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a52d01c7-9f27-41e7-8d5d-75c96e2c55b6" name="Default Changelist" comment="Add Writemanife function" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,17 +107,36 @@
       <option name="project" value="LOCAL" />
       <updated>1597065137875</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Idea config changes">
+      <created>1597152435273</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597152435273</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix package name" />
     <MESSAGE value="Fix Typo" />
     <MESSAGE value="Add Writemanife function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Writemanife function" />
+    <MESSAGE value="Idea config changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Idea config changes" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -123,10 +158,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="461" y="157" key="SettingsEditor/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597058150680" />
-    <state x="2480" y="267" key="Vcs.Push.Dialog.v2" timestamp="1597065140073">
+    <state x="2480" y="267" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1597152438530">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="560" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1044/1920.0.1920.1080@0.0.1920.1044" timestamp="1597058719230" />
-    <state x="2480" y="267" key="Vcs.Push.Dialog.v2/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597065140073" />
+    <state x="2480" y="267" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1920.1044/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597152438530" />
   </component>
 </project>

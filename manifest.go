@@ -176,8 +176,9 @@ func NewManifestWithParams(bundleName, svcName string, milestone string, params 
 		},
 	}
 
-	for _, svc := range bundle.Services {
+	for idx, svc := range bundle.Services {
 		svc.PropertyGroup = append(svc.PropertyGroup, getServiceTypePropertyGroup(params.Type))
+		bundle.Services[idx] = svc
 	}
 
 	return bundle
